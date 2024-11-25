@@ -1,0 +1,64 @@
+.filter-section {
+    display: flex;
+    align-items: center;
+    margin-bottom: 16px;
+}
+
+body {
+    background-color: #f0f0f0; 
+    font-family: 'Arial', sans-serif; 
+    margin: 0;
+    padding: 0;
+    color: #333; 
+}
+
+.container {
+    padding: 20px;
+    margin: auto;
+    max-width: 1200px;
+}
+
+.filter-section {
+    background-color: #ffffff;
+    padding: 10px 20px;
+    border-radius: 8px;
+    box-shadow: 0 4px 6px rgba(0,0,0,0.1);
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-bottom: 20px;
+}
+
+.FormControl {
+    margin: 0 15px;
+}
+
+.Button {
+    background-color: var(--primary-color, #1976d2);
+    color: white;
+    padding: 10px 20px;
+    border-radius: 4px;
+    transition: background-color 0.2s, transform 0.2s;
+}
+
+.Button:hover {
+    background-color: #0056b3; 
+    transform: scale(1.05); 
+}
+
+.Card {
+    background-color: #fff;
+    border-radius: 8px;
+    box-shadow: 0 2px 4px rgba(0,0,0,0.15);
+    transition: box-shadow 0.3s;
+}
+
+.Card:hover {
+    box-shadow: 0 5px 15px rgba(0,0,0,0.2);
+}
+
+.pagination {
+    display: flex;
+    justify-content: center;
+    padding: 20px 0;
+}

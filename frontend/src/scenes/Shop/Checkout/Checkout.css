@@ -1,0 +1,97 @@
+body {
+    background: rgb(241, 240, 239);
+
+}
+
+.cart-container {
+    width: 70%;
+    margin: 50px auto;
+    padding: 40px;
+    background: whitesmoke;
+    box-shadow: 0 2px 15px rgba(0, 0, 0, 0.1);
+    border-radius: 8px;
+    min-height: 60vh; 
+}
+
+
+.table-header {
+    background-color: #f1f1f1;
+}
+
+.product-image {
+    width: 50px; 
+    height: auto;
+    margin-right: 10px;
+}
+
+.MuiTableCell-root {
+    font-size: 16px; 
+}
+
+.total-checkout-container {
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    padding: 20px 0;
+}
+
+
+.checkout-button {
+    padding: 15px 30px;
+    font-size: 18px;
+    background-color: #007BFF;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+    margin-left: 20px;
+}
+
+.checkout-button:hover {
+    background-color: #0056b3;
+}
+
+
+input,
+textarea {
+    
+    width: 100%;
+    font-size: 18px;
+    padding: 12px;
+    margin: 8px 0;
+    display: inline-block;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+}
+
+
+h4, h5 {
+    margin-bottom: 20px;
+}
+
+.grand-total {
+    font-size: 20px;
+    color: #333;
+    font-weight: bold;
+    display: inline;
+}
+
+
+.MuiTextField-root .MuiInputBase-input .helperText {
+    font-size: 16px;
+    color: #666; 
+}
+
+.form-and-total {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+@media (max-width: 768px) {
+    .form-and-total {
+        flex-direction: column;
+    }
+}

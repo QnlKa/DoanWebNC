@@ -1,0 +1,37 @@
+/* components/HomeWrapper/HomeWrapper.css */
+.services {
+    display: flex;
+    justify-content: space-between;
+    padding: 20px;
+    background-color: #f5f5f5;
+    border-radius: 8px;
+    box-shadow: 0px 2px 8px rgba(0, 0, 0, 0.1);
+    margin: 20px 0;
+}
+
+.service-item {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    flex: 1;
+    justify-content: center;
+    padding: 10px;
+}
+
+.service-item img {
+    width: 45px;
+    height: 43px;
+}
+
+.service-item h4 {
+    margin: 0;
+    font-size: 20px;
+    font-weight: 600;
+    color: #171717;
+}
+
+.service-item p {
+    margin: 0;
+    font-size: 18px;
+    color: #6b7280;
+}
